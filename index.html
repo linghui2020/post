@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>POST项目相关环境信息</title>
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<link rel="icon" type="image/x-icon" href="favicon.ico">
+	<link rel="apple-touch-startup-image" href="startup.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="touch-icon-iphone-retina.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="touch-icon-ipad.png">
+	<link rel="apple-touch-icon-precomposed " sizes="144x144" href="iTunesArtwork@2x.png">
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/home.css">
+
+
+</head>
+<body data-spy="scroll" data-target=".bd-sidebar">
+	
+<div id="topAnchor"></div>
+<a href="#topAnchor" style="position:fixed;right:30px;bottom:30px;color:grey">回到顶部</a>
+<div class="bd-pageheader" style="position:fixed;top:0;left:0;right:0;z-index: 998;">
+	<div class="container">
+		<h1>POST · 环境信息 <img src="images/iwalecloud_logo.png" width="160px" height="50px"/></h1>
+		<p class="lead">POST ENV INFO		
+		</p>
+		
+	</div>
+
+	<!-- 团队成员信息 -->
+	<div class="snowflakes" aria-hidden="true">
+		
+	</div>
+
+
+</div>
+
+<article class="container bd-main" style="position:relative;top:16rem;;left:0;right:0;z-index: 997;">
+	<div class="row p-relative">
+		<div class="col-md-2 col-md-push-1 hidden-xs hidden-sm" >
+			<div class="bd-sidebar" data-spy="affix" data-offset-top="220">
+				<ul class="nav">
+					<li>
+						<a class="h4" href="#f1">POST网址导航</a>
+						<ul class="nav">
+							<li>
+								<a href="#one">前台portal和ZCM</a>
+							</li>
+							<li>
+								<a href="#f101">eureka</a>
+							</li>
+							<!-- <li>
+								<a href="#f102">ZCM</a>
+							</li> -->
+							<li>
+								<a href="#f103">腾讯文档</a>
+							</li>
+							<li>
+								<a href="#f104">办公常用地址</a>
+							</li>
+							
+						</ul>
+					</li>
+					<li>
+						<a class="h4" href="#f2">POST连接信息</a>
+						<ul class="nav">
+							<li>
+								<a href="#f201">MySQL数据库</a>
+							</li>
+							<li>
+								<a href="#f202">PG数据库</a>
+							</li>
+							<li>
+								<a href="#f203">ZMQ</a>
+							</li>
+							<li>
+								<a href="#f204">Zcache</a>
+							</li>
+
+							<li>
+								<a href="#f205">Zookeeper</a>
+							</li>
+							<li>
+								<a href="#f206">主机信息</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a class="h4" href="#f3">POST文档管理</a>
+						<ul class="nav">
+							<li>
+								<a href="#f301">常用工具下载</a>
+							</li>
+							<li>
+								<a href="#f302">POST文档下载</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="col-md-9 aui-fr-info">
+			<div class="bd-content">
+				<h3 class="content-item-title" id="f1">
+					POST网址导航
+					<p style="font-size:1.2rem;display: inline;">&nbsp;&nbsp;&nbsp;POST常用网址，整理供大家使用！</p>
+				</h3>
+				<div class="content-item noInfo" id="one">
+					<h1>前台portal和ZCM地址</h1>
+					<div class="content-list clearfix">
+						<a target="_blank" href="http://10.45.51.117:8001/oss/">
+							<img class="ico" src="images/icon/favicon.ico"/>
+							<span class="text">117环境</span>
+							<p class="info"  title="117环境前台portal登录地址">117环境前台portal登录地址</p>
+						</a>
+						<a target="_blank" href="http://10.45.50.19:8001/oss/">
+							<img class="ico" src="images/icon/favicon.ico"/>
+							<span class="text">19环境</span>
+							<p class="info" title="19环境前台portal登录地址">19环境前台portal登录地址</p>
+						</a>
+						<a target="_blank" href="http://10.45.51.154:8001/oss/">
+							<img class="ico" src="images/icon/favicon.ico"/>
+							<span class="text">154环境</span>
+							<p class="info" title="154环境前台portal登录地址">154环境前台portal登录地址</p>
+						</a>
+
+						<a target="_blank" href="http://10.45.80.26/portal/">
+							<img class="ico" src="images/zcm_logo.png"/>
+							<span class="text">ZCM</span>
+							<p class="info" title="三个环境ZCM为同一地址">三个环境ZCM为同一地址</p>
+						</a>
+					
+					</div>
+				</div>
+
+				<div class="content-item" id="f101">
+					<h1>eureka</h1>
+					<div class="content-list clearfix">
+						<a target="_blank" href="http://10.45.51.117:9010/">
+							<img class="ico" src="images/eureka_logo.png" width="200px"/>
+							<span class="text">117ek</span>
+							<p class="info">117环境eureka登录地址</p>
+						</a>
+						<a target="_blank" href="http://10.45.50.17:9010/">
+							<img class="ico" src="images/eureka_logo.png"/>
+							<span class="text">19ek</span>
+							<p class="info">19环境eureka登录地址</p>
+						</a>
+						<a target="_blank" href="http://10.45.51.165:9010/">
+							<img class="ico" src="images/eureka_logo.png"/>
+							<span class="text">154ek</span>
+							<p class="info">154环境eureka登录地址</p>
+						</a>
+						
+					</div>
+				</div>
+
+				<!-- <div class="content-item noInfo" id="f102">
+					<h1>ZCM</h1>
+					<div class="content-list clearfix">
+						<a target="_blank" href="http://10.45.80.26/portal/">
+							<img class="ico" src="images/zcm_logo.png"/>
+							<span class="text">ZCM</span>
+							<p class="info">三个环境ZCM为同一地址</p>
+						</a>
+						
+					</div>
+				</div> -->
+
+				<div class="content-item" id="f103">
+					<h1>腾讯文档</h1>
+					<div class="content-list clearfix">
+						<a target="_blank" class="link-hot" href="﻿https://docs.qq.com/sheet/DQkhOYkRPTHZlWWRv?tab=bb08j2﻿">
+							<img class="ico" src="images/tencent.png"/>
+							<span class="text">BAMBOO BO联调</span>
+							<p class="info">BAMBOO的BO联调测试案例</p>
+						</a>
+
+						<a target="_blank" href="http://www.17sucai.com/">
+							<img class="ico" src="images/tencent.png"/>
+							<span class="text">VT测试</span>
+							<p class="info">局方提供的8月份需要联调的VT测试案例</p>
+						</a>
+						<a target="_blank" href="﻿﻿https://docs.qq.com/sheet/DQnNSbnZvdm1oUVJy?tab=bb08j2﻿">
+							<img class="ico" src="images/tencent.png"/>
+							<span class="text">CO BO联调</span>
+							<p class="info">Connect Office的的BO联调测试案例</p>
+						</a>
+						<a target="_blank" href="https://docs.qq.com/sheet/DTHptTVNibXJNbHJM?tab=dhc3qs">
+							<img class="ico" src="images/tencent.png"/>
+							<span class="text">单个测试</span>
+							<p class="info">POST单个场景案例和功能界面案例</p>
+						</a>
+					</div>
+				</div>
+
+				<div class="content-item" id="f104">
+					<h1>办公常用地址</h1>
+					<div class="content-list clearfix">
+						<a target="_blank" href="https://oa.iwhalecloud.com/">
+							<img class="ico" src="images/iwalecloud.png"/>
+							<span class="text">ZMP</span>
+							<p class="info">ZMP登录地址</p>
+						</a>
+						<a target="_blank" href="https://mail.iwhalecloud.com/owa/auth/logon.aspx?replaceCurrent=1&url=https%3a%2f%2fmail.iwhalecloud.com%2fowa%2f">
+							<img class="ico" src="images/iwalecloud.png"/>
+							<span class="text">outlook</span>
+							<p class="info">outlook网页版登录地址</p>
+						</a>
+
+						<a target="_blank" href="https://172.16.80.109/login">
+							<img class="ico" src="images/iwalecloud.png"/>
+							<span class="text">雳鉴</span>
+							<p class="info">雳鉴登录地址，用于管理项目</p>
+						</a>
+
+						<a target="_blank" href="https://newras.corp.post.lu/logon/LogonPoint/tmindex.html">
+							<img class="ico" src="images/iwalecloud.png"/>
+							<span class="text">Citrix</span>
+							<p class="info">Citrix登录地址，用于连接远程</p>
+						</a>
+
+						<a target="_blank" href="https://www.cnblogs.com/feifeicui/p/8654294.html">
+							<img class="ico" src="images/iwalecloud.png"/>
+							<span class="text">HTTP code</span>
+							<p class="info">常见的HTTP状态码(HTTP Status Code)说明</p>
+						</a>
+
+						<a target="_blank" href="https://edu.iwhalecloud.com/#cloudclassroom">
+							<img class="ico" src="images/iwalecloud.png"/>
+							<span class="text">云学院</span>
+							<p class="info">浩鲸云学院</p>
+						</a>
+						
+						<a target="_blank" href="http://pw.iwhalecloud.com:18023/">
+							<img class="ico" src="images/iwalecloud.png"/>
+							<span class="text">邮箱密码重置</span>
+							<p class="info">outlook邮箱密码重置地址</p>
+						</a>
+						
+						
+					</div>
+				</div>
+				
+				<h3 class="content-item-title" id="f2">
+					POST连接信息
+					<p style="font-size:1.2rem;display: inline;">&nbsp;&nbsp;&nbsp;POST主机等连接信息</p>
+				</h3>
+				
+				<div class="content-item noInfo" id="f201">
+					<h1>MySQL数据库</h1>
+					<div class="content-list clearfix">
+						<table class="table table-responsive table-condensed table-hover">
+							<thead>
+							  <tr>
+								<th>环境信息</th>
+								<th>数据库IP</th>
+								<th>端口</th>
+							  </tr>
+							</thead>
+							<tbody>
+							  <tr>
+								<td>117环境</td>
+								<td>10.45.51.120</td>
+								<td>3306</td>
+							  </tr>
+							  <tr>
+								<td>19环境</td>
+								<td>10.45.50.16</td>
+								<td>3306</td>
+							  </tr>
+							  <tr>
+								<td>154环境</td>
+								<td>10.45.51.154</td>
+								<td>3306</td>
+							  </tr>
+							</tbody>
+						  </table>
+					</div>
+				</div>
+
+				<div class="content-item noInfo" id="f202">
+					<h1>PG数据库</h1>
+					<div class="content-list clearfix">
+						<table class="table table-responsive table-condensed table-hover">
+							<thead>
+							  <tr>
+								<th>环境信息</th>
+								<th>数据库IP</th>
+								<th>端口</th>
+							  </tr>
+							</thead>
+							<tbody>
+							  <tr>
+								<td>117环境</td>
+								<td>10.45.51.120</td>
+								<td>5432</td>
+							  </tr>
+							  <tr>
+								<td>19环境</td>
+								<td>10.45.50.16</td>
+								<td>5432</td>
+							  </tr>
+							  <tr>
+								<td>154环境</td>
+								<td>10.45.51.154</td>
+								<td>5432</td>
+							  </tr>
+							</tbody>
+						  </table>
+					</div>
+				</div>
+
+				<div class="content-item noInfo" id="f203">
+					<h1>ZMQ</h1>
+					<div class="content-list clearfix">
+						<table class="table table-responsive table-condensed table-hover">
+							<thead>
+							  <tr>
+								<th>环境信息</th>
+								<th>namesrv ip</th>
+								<th>namesrv port</th>
+								<th>broker ip</th>
+								<th>broker port</th>
+							  </tr>
+							</thead>
+							<tbody>
+							  <tr>
+								<td>117环境</td>
+								<td>10.45.51.120</td>
+								<td>9876</td>
+								<td>10.45.51.117(master)
+									 10.45.51.118(slave)</td>
+								<td>10911</td>
+							  </tr>
+							  <tr>
+								<td>19环境</td>
+								<td>10.45.50.16</td>
+								<td>9876</td>
+								<td>10.45.50.17（master）
+								10.45.50.18（slave）</td>
+								<td>10911</td>
+							  </tr>
+							  <tr>
+								<td>154环境</td>
+								<td>10.45.51.154</td>
+								<td>9876</td>
+								<td>10.45.51.165(master)
+									10.45.51.166(slave)</td>
+								<td>10911</td>
+							  </tr>
+							</tbody>
+						  </table>
+					</div>
+				</div>
+
+				<div class="content-item noInfo" id="f204">
+					<h1>Zcache</h1>
+					<div class="content-list clearfix">
+						<table class="table table-responsive table-condensed table-hover">
+							<thead>
+							  <tr>
+								<th>环境信息</th>
+								<th>IP</th>
+								<th>Port</th>
+							  </tr>
+							</thead>
+							<tbody>
+							  <tr>
+								<td>117环境</td>
+								<td>10.45.51.117
+									&nbsp;&nbsp;10.45.51.118
+									&nbsp;&nbsp;10.45.51.120</td>
+								<td>7670</td>
+							  </tr>
+							  <tr>
+								<td>19环境</td>
+								<td>10.45.50.16
+									&nbsp;&nbsp;10.45.50.17
+									&nbsp;&nbsp;10.45.50.18</td>
+								<td>27670</td>
+							  </tr>
+							  <tr>
+								<td>154环境</td>
+								<td>10.45.51.154
+									&nbsp;&nbsp;10.45.51.165
+									&nbsp;&nbsp;10.45.51.166</td>
+								<td>27670</td>
+							  </tr>
+							</tbody>
+						  </table>
+					</div>
+				</div>
+
+				<div class="content-item noInfo" id="f205">
+					<h1>Zookeeper</h1>
+					<div class="content-list clearfix">
+						<table class="table table-responsive table-condensed table-hover">
+							<thead>
+							  <tr>
+								<th>环境信息</th>
+								<th>IP</th>
+								<th>Port</th>
+							  </tr>
+							</thead>
+							<tbody>
+							  <tr>
+								<td>117环境</td>
+								<td>10.45.51.120</td>
+								<td>2181</td>
+							  </tr>
+							  <tr>
+								<td>19环境</td>
+								<td>10.45.50.16</td>
+								<td>2181</td>
+							  </tr>
+							  <tr>
+								<td>154环境</td>
+								<td>10.45.51.154</td>
+								<td>2181</td>
+							  </tr>
+							</tbody>
+						  </table>
+					</div>
+				</div>
+
+				<div class="content-item noInfo" id="f206">
+					<h1>主机管理</h1>
+					<div class="content-list clearfix">
+						<table class="table table-responsive table-condensed table-hover">
+							<thead>
+							  <tr>
+								<th>环境信息</th>
+								<th>host ip</th>
+							  </tr>
+							</thead>
+							<tbody>
+							  <tr>
+								<td>117环境</td>
+								<td>10.45.51.117
+									&nbsp;&nbsp;10.45.51.118
+									&nbsp;&nbsp;10.45.51.120
+									&nbsp;&nbsp;10.45.50.246</td>
+							  </tr>
+							  <tr>
+								<td>19环境</td>
+								<td>10.45.50.16
+									&nbsp;&nbsp;&nbsp;10.45.50.17
+									&nbsp;&nbsp;&nbsp;10.45.50.18
+									&nbsp;&nbsp;&nbsp;0.45.50.19</td>
+							  </tr>
+							  <tr>
+								<td>154环境</td>
+								<td>10.45.51.154
+									&nbsp;&nbsp;10.45.51.165
+									&nbsp;&nbsp;10.45.51.166</td>
+							  </tr>
+							  <tr>
+								<td>闲置主机</td>
+								<td>10.45.50.245
+									&nbsp;&nbsp;10.45.50.247
+									&nbsp;&nbsp;10.45.50.248
+									&nbsp;&nbsp;10.45.50.101</td>
+							  </tr>
+
+							</tbody>
+						  </table>
+					</div>
+				</div>
+
+				<h3 class="content-item-title" id="f3">
+					POST文件管理
+					<p style="font-size:1.2rem;display: inline;">&nbsp;&nbsp;&nbsp;POST文件和常用工具下载</p>
+				</h3>
+
+				
+				<div class="content-item noInfo" id="f301">
+					<h1>常用工具</h1>
+					<div class="content-list clearfix">
+						<table class="table table-condensed">
+							<tbody>
+							  <tr>
+								<td><a class="filedownload" target="_blank" href="download/scvpn.exe">HillstoneVPN下载</a></td>
+								<td><a class="filedownload" target="_blank" href="download/CiscoJabberSetup12.6.1.msi">Jabber下载</a></td>
+								<td><a class="filedownload" target="_blank" href="download/CitrixWorkspaceApp.exe">CitrixWorkspaceApp下载</a></td>
+								<td><a class="filedownload" target="_blank" href="download/dbeaver-ce-6.1.1-x86_64-setup.exe">dbeaver数据库工具下载</a></td>
+								<td><a class="filedownload" target="_blank" href="download/navicate.rar">navicate数据库工具下载</a></td>
+							  </tr>
+							  <tr>
+								<td><a class="filedownload" target="_blank" href="download/Postman-win64-7.21.1-Setup.exe">Postman-64位下载</a></td>
+								<td><a class="filedownload" target="_blank" href="download/SoapUI-Pro-x64-5.1.2.exe">SoapUI-64位下载</a></td>
+								<td><a class="filedownload" target="_blank" href="download/Snipaste-2.3-Beta-x64.zip">Snipaste截图工具下载</a></td>
+								<td><a class="filedownload" target="_blank" href="download/Zsmart Encryptor.zip">Zsmart Encryptor加密工具下载</a></td>
+							  </tr>
+							
+
+							</tbody>
+						  </table>
+					</div>
+				</div>
+
+				<div class="content-item noInfo" id="f302">
+					<h1>POST文档下载</h1>
+					<div class="content-list clearfix">
+						
+					</div>
+				</div>
+				
+			</div>
+		</div>
+
+	</div>
+</article>
+<!-- <footer class="bd-footer">
+	<div class="container" style="float:right; text-align:right;">
+		Copyright © 2020  All rights reserved.	
+	</div>
+	<div style="clear: both"></div>
+</footer> -->
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script>
+	var nameArr = ["孙思理","谭玮","贠心浩","彭有为","郑建","石尧","徐娟","袁敏","彭冠","刘毅","李彦","廖震超","张略乐","罗朝阳","梁欣","范颖","宋海舰","刘恒","凌辉","毛凯强",
+					"丁有志","吴财波","邓四海","朱大江","马英强","胡伟鹏","冯博钜","王冰冰","童轶","夏强","钟适文","唐浩茗","陈文杰","胡艳梅","董超","唐健林","吴海林","罗伟","倪易澜","邱荷花"];
+	var divHtml = ''
+	for(var i=0;i < nameArr.length;i++){
+		divHtml += '<div class="snowflake">' +nameArr[i] + '</div>';
+	}
+ $(".snowflakes").html(divHtml);
+</script>
+<style>
+	.filedownload{
+	width:100% !important;
+	min-height: 0px !important;
+	text-decoration:underline ;
+}
+.filedownload :hover{
+	text-decoration:underline ;
+}
+
+</style>
+<link rel="stylesheet" href="css/xm.css">
+</body>
+</html>
